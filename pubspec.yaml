@@ -5,6 +5,7 @@ description: >
   models can be used to create animations that feel natural by introducing
   real world physics to your application.
 homepage: https://github.com/danschultz/rebound.dart
+author: Dan Schultz <schultz.t.dan@gmail.com>
 dependencies:
 dev_dependencies:
   browser: '>=0.10.0 <0.11.0'
