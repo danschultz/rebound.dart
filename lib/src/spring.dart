@@ -8,6 +8,9 @@ class Spring {
   num get startValue => _proxy.callMethod("getStartValue");
 
   num get currentValue => _proxy.callMethod("getCurrentValue");
+  void set currentValue(num value) {
+    _proxy.callMethod("setCurrentValue", [value]);
+  }
 
   num get endValue => _proxy.callMethod("getEndValue");
   void set endValue(num value) {
